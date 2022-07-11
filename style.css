@@ -12,6 +12,20 @@ header{
   background-color: rgb(164, 233, 233);
 }
 
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  align-items:center ;
+  align-content: center;
+}
+
+.navbar li a{
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 0;
+  color: #2d2df0;
+  text-decoration: none;
+}
 
 .nav-title {
   color: #0000;
@@ -25,7 +39,6 @@ header{
   cursor: pointer;
   background: linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200%,linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) no-repeat,var(--_c,#0000);
   -webkit-background-clip: text,padding-box,padding-box;
-  background-clip: text,padding-box,padding-box;
   transition: 0s ,color .5s,background-color .5s;
 }
 .nav-title:hover {
@@ -36,19 +49,6 @@ header{
 }
 
 
-.navbar h3 a{
-  font-size: 18px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.nav-list{
-  display: flex;
-  justify-content: space-around;
-  align-items:center ;
-  align-content: center;
-}
-
 
 .nav-list ul li{
   list-style: none;
@@ -57,13 +57,6 @@ header{
   padding: 8px 12px;
   margin-right: 20px;
 
-}
-.navbar li a{
-  font-size: 18px;
-  font-weight: 600;
-  margin-left: 0;
-  color: #2d2df0;
-  text-decoration: none;
 }
 
 .navbar ul li a::after {
